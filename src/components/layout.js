@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
 				}
 					html,
 					body {
-						background-color: #2CBF49;
+						background-repeat: no-repeat;
 						height: 100%;
 						width: 100vw;
 						overflow: visible;
@@ -77,6 +77,13 @@ const Layout = ({ children }) => {
 							margin-top: 0.25rem;
 						}
 
+						main {
+							width: 100%;
+						}
+
+						#gatsby-focus-wrapper {
+							background-image: linear-gradient(to bottom, #99B898 2rem, rgba(153,184,152, 0.3));
+						}
 
 					}
 			`}

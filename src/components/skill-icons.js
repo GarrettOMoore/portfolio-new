@@ -56,6 +56,15 @@ const SkillIcons = (props) => {
         <div className='icon-box'>
         <FontAwesomeIcon className='git-icon'icon={faAdobe} size={'2x'}  color={'#2A363B'}/>
         </div>
+        <div className='icon-box'>
+        <FontAwesomeIcon className='git-icon'icon={faJs} size={'2x'}  color={'#2A363B'}/>
+        </div>
+        <div className='icon-box'>
+        <FontAwesomeIcon className='git-icon'icon={faNode} size={'2x'}  color={'#2A363B'}/>
+        </div>
+        <div className='icon-box'>
+        <FontAwesomeIcon className='git-icon'icon={faGit} size={'2x'}  color={'#2A363B'}/>
+        </div>
         {/* <IconContext.Provider value={{ size: "4.5em", color: "#2A363B" }}> */}
                 <div className='icon-box'>
                 <DiDjango className= "react-icon" size={'50px'} color={'#2A363B'} />
