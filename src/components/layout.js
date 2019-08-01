@@ -33,6 +33,7 @@ const Layout = ({ children }) => {
 					margin: 0;
 					text-align: center;
 					overflow-y: scroll;
+					font-family: 'Open Sans Condensed', sans-serif;
 				}
 				* + * {
 					margin-top: 1rem;
@@ -62,6 +63,7 @@ const Layout = ({ children }) => {
 						h5,
 						h6 {
 							color: #222;
+							letter-spacing: 0.5rem;
 							line-height: 1.1;
 
 							+ * {
