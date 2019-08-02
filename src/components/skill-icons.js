@@ -3,8 +3,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt, faDatabase, faDrum, faMusic } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare, faGit, faBootstrap, faHtml5, faJs, faLinkedin, faNode, faNpm, faPython, faReact, faAdobe } from '@fortawesome/free-brands-svg-icons'
-import { DiDjango, DiHeroku, DiMongodb, DiVisualstudio, DiPostgresql, DiMaterializecss, DiTerminal, DiCss3 } from "react-icons/di";
-import { IconContext } from "react-icons";
+import { DiDjango, DiHeroku, DiMongodb, DiVisualstudio, DiPostgresql, DiTerminal, DiCss3 } from "react-icons/di";
 import { css } from '@emotion/core';
 
 library.add(faDatabase, faMusic, faExternalLinkAlt, faGithubSquare, faGit, faBootstrap, faHtml5, faJs, faLinkedin, faNode, faNpm, faPython, faReact, faAdobe, faDrum)
@@ -30,7 +29,11 @@ const SkillIcons = (props) => {
         <FontAwesomeIcon className='git-icon'icon={faReact} size={'2x'}  color={'#2A363B'}/>
         </div>
         <div className='icon-box'>
+        </div>
+        <div className='icon-box'>
         <FontAwesomeIcon className='git-icon'icon={faJs} size={'2x'}  color={'#2A363B'}/>
+        </div>
+        <div className='icon-box'>
         </div>
         <div className='icon-box'>
         <FontAwesomeIcon className='git-icon'icon={faNode} size={'2x'}  color={'#2A363B'}/>

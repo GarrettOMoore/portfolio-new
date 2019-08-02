@@ -2,23 +2,8 @@ import React from 'react';
 import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
 import Hero from '../components/hero';
-import styled from '@emotion/styled'; 
-import { graphql, useStaticQuery } from 'gatsby';
-import BackgroundImage from 'gatsby-background-image';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 
-const BGImage = styled(`div`)`
-	background-image: url('/images/Quepal.jpg');
-	background-position: top 20% center;
-	background-size: cover;
-	border-top: 4px solid black;
-	box-shadow: 1rem red	 inset;
-	width: 100vw;
-	height: 100vh;
-	+ * {
-		margin-top: 0;
-	}
-`;
 
 
 const Layout = ({ children }) => {
@@ -84,9 +69,13 @@ const Layout = ({ children }) => {
 						}
 
 						#gatsby-focus-wrapper {
+							height: 100vh;
 							background-image: linear-gradient(to bottom, #99B898 2rem, rgba(153,184,152, 0.3));
 						}
 
+						.contact-icons * {
+							margin: 1rem;
+						}
 					}
 			`}
 			/>
@@ -97,6 +86,7 @@ const Layout = ({ children }) => {
 					<meta name='description' content={description} />
 				</Helmet>
 				<Hero />
+				{/* <ContactIcons /> */}
 				<main
 					css={css`
 						margin: 2rem auto 4rem;

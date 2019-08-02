@@ -3,7 +3,7 @@ import useSiteMetadata from '../hooks/use-sitemetadata'
 import Layout from '../components/layout';
 import Image from 'gatsby-image';
 import { useStaticQuery, graphql } from "gatsby";
-import Icons from '../components/skill-icons'
+import ContactIcons from '../components/contact-icons';
 import { css } from '@emotion/core';
 
 const about = () => {
@@ -24,6 +24,7 @@ const about = () => {
 	return (
 		<>
 			<Layout>
+			<ContactIcons />
 				<h2>About Me</h2>
 				<Image fluid={image.sharp.fluid} css={css`
 						opacity: 0.8;				
@@ -49,8 +50,60 @@ const about = () => {
 					 	after a couple of years self-learning fundmentals. I recently graduated from
 						 General Assembly's Software Engineering Immersive, where I'm now working as a Teaching Assistant.</p>
 				</main>
-				<h3>Core Skills: </h3>
-				<Icons />
+				<h1>Skills: </h1>
+				<div css={css`
+					display: flex;
+					width: 100%;
+					height: 100%;
+					margin: 0 auto;
+					top: 1rem;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					text-align: center;
+
+					div {
+						display: flex;
+						margin: 0 auto;
+						top: 1;
+						font-size: 1.5rem;
+					}
+
+					ul {
+						padding: 0;
+					}
+
+				`}>
+				<div>
+					<ul>
+							<li>React</li>
+							<li>Gatsby</li>
+							<li>GraphQL</li>
+							<li>JavaScript</li>
+							<li>MongoDB</li>
+							<li>NodeJS</li>
+							<li>Express</li>
+							<li>TypeScript</li>
+							<li>Python</li>
+							<li>HTML5 Canvas</li>
+						</ul>
+					</div>
+						<div>
+					<ul>
+							<li>Django</li>
+							<li>PostGRES</li>
+							<li>REST API</li>
+							<li>Agile/SCRUM</li>
+							<li>Git</li>
+							<li>Terminal</li>
+							<li>pSQL</li>
+							<li>Sequelize</li>
+							<li>MapBox</li>
+							<li>Cloudinary</li>
+					</ul>
+				</div>
+				</div>
+				<p>...always adding new things!</p>
+				{/* <Icons /> */}
 			</Layout>
 		</>
 	)

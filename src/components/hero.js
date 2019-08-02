@@ -18,7 +18,6 @@ const ImageBackground = styled(BackgroundImage)`
 `;
 
 const Logo = styled(BackgroundImage)`
-	${'' /* margin: 1rem 1rem 1rem 1rem; */}
 	top: 2rem;
 	bottom: 1rem;
 	margin: 0 auto;
