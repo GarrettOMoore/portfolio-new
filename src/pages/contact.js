@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from '../components/layout';
+import ContactIcons from '../components/contact-icons';
 import { css } from '@emotion/core';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,11 +15,7 @@ const contact = () => {
 	return (
 		<>
 			<Layout>
-				<div className='contact-icons'>
-        	<FontAwesomeIcon icon={faGithubSquare} size={'5x'}  color={'#2A363B'}/>
-        	<FontAwesomeIcon icon={faLinkedin} size={'5x'}  color={'#2A363B'}/>
-					<FontAwesomeIcon icon={faEnvelope} size={'5x'}  color={'#2A363B'}/>
-        </div>
+				<ContactIcons />
 				<div class="container" css={css`
 														@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 														* {

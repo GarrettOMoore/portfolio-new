@@ -74,7 +74,16 @@ const Layout = ({ children }) => {
 						}
 
 						.contact-icons * {
-							margin: 1rem;
+							margin: 0.5rem;
+						}
+
+						#icon {
+							border: 2px solid transparent;
+						}
+						#icon :hover {
+							z-index: 10;
+							border: 0px solid transparent;
+							color: #D9863D;
 						}
 					}
 			`}

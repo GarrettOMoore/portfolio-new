@@ -14,9 +14,9 @@ const contactIcons = () => {
 		<>
 
 				<div className='contact-icons'>
-        	<FontAwesomeIcon icon={faGithubSquare} size={'5x'}  color={'#2A363B'}/>
-        	<FontAwesomeIcon icon={faLinkedin} size={'5x'}  color={'#2A363B'}/>
-					<FontAwesomeIcon icon={faEnvelope} size={'5x'}  color={'#2A363B'}/>
+        	<a href="https://github.com/GarrettOMoore"><FontAwesomeIcon id="icon" icon={faGithubSquare} size={'5x'}  color={'#2A363B'}/></a>
+        	<a href="https://www.linkedin.com/in/r-garrett-moore/"><FontAwesomeIcon id="icon" icon={faLinkedin} size={'5x'}  color={'#2A363B'}/></a>
+					<a href=""><FontAwesomeIcon id="icon" icon={faEnvelope} size={'5x'}  color={'#2A363B'}/></a>
         </div>
 		</>
 	)
