@@ -85,6 +85,11 @@ const Layout = ({ children }) => {
 							border: 0px solid transparent;
 							color: #D9863D;
 						}
+
+						img {
+							width: 300px;
+							height: 300px;
+						}
 					}
 			`}
 			/>
@@ -100,7 +105,7 @@ const Layout = ({ children }) => {
 					css={css`
 						margin: 2rem auto 4rem;
 						max-width: 90vw;
-						width: 550px;
+						width: 650px;
 						overflow-y: scroll;
 					`}
 					>

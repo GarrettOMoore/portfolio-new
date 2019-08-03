@@ -10,7 +10,7 @@ const index = () => {
 	const { title, description } = useSiteMetadata();
 	const { image } = useStaticQuery(graphql`
 	query {
-		image: file(relativePath: {eq: "small-lagoon.jpg" }) {
+		image: file(relativePath: {eq: "sitting-cb.jpg" }) {
 		sharp: childImageSharp {
 		 fluid {
 			 ...GatsbyImageSharpFluid_withWebp

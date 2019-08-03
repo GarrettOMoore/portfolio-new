@@ -11,7 +11,7 @@ const about = () => {
 
 	const { image } = useStaticQuery(graphql`
 		query {
-			image: file(relativePath: {eq: "research_one.jpeg" }) {
+			image: file(relativePath: {eq: "closeup-cb.jpg" }) {
 			sharp: childImageSharp {
 	     fluid {
          ...GatsbyImageSharpFluid_withWebp
@@ -42,13 +42,19 @@ const about = () => {
 					</ul>
 				</div> */}
 				<main>
-					<p>Hello! My name is Garrett, and I'm a full stack web developer 
+					<p>Hello! My name is Garrett, I'm a full stack web developer 
 						and musician based in Seattle, WA. Originally from San Diego, CA -
-					 	I moved to Seattle for a change of scenery in 2008, and have gladly 
+					 	I moved to Seattle for a change of scenery in 2008, and have 
 					 	called it home ever since. Originally coming from a musical background, 
 					 	I made the decision to pivot to a career in Software Development in 2017, 
-					 	after a couple of years self-learning fundmentals. I recently graduated from
-						 General Assembly's Software Engineering Immersive, where I'm now working as a Teaching Assistant.</p>
+					 	after a few years of self-learning fundmentals. I recently graduated from
+						General Assembly's Software Engineering Immersive, where I'm now working as a 
+						Teaching Assistant. When I'm not busy building web applications, you can usually find
+						me playing music around town, or digging around the many local record and book shops. 
+					</p>
+					<h4>
+					Currently seeking full-time work in Seattle, or remote.
+					</h4>
 				</main>
 				<h1>Skills: </h1>
 				<div css={css`
