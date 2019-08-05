@@ -16,5 +16,12 @@ module.exports = {
         path: 'images',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'project-images',
+        path: 'images/project-images',
+      },
+    },
   ],
 };

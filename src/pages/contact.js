@@ -16,7 +16,7 @@ const contact = () => {
 		<>
 			<Layout>
 				<ContactIcons />
-				<div class="container" css={css`
+				<div className="container" css={css`
 														@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 														* {
 														  margin: 0;
@@ -156,9 +156,9 @@ const contact = () => {
 				`}> 
 				<div id="container">
 					<form id="contact" action="" method="post">
-						<input placeholder="Your name" type="text" tabindex="1" required autofocus></input>
-						<input placeholder="Your Email Address" type="email" tabindex="2" required></input>
-						<textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+						<input placeholder="Your name" type="text" tabIndex="1" required autoFocus></input>
+						<input placeholder="Your Email Address" type="email" tabIndex="2" required></input>
+						<textarea placeholder="Type your message here...." tabIndex="5" required></textarea>
 						<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
   				</form>
 				</div>

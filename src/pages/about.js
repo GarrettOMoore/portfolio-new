@@ -49,7 +49,7 @@ const about = () => {
 					 	I made the decision to pivot to a career in Software Development in 2017, 
 					 	after a few years of self-learning fundmentals. I recently graduated from
 						General Assembly's Software Engineering Immersive, where I'm now working as a 
-						Teaching Assistant. When I'm not busy building web applications, you can usually find
+						Teaching Assistant. When I'm not busy building things for the web, you can usually find
 						me playing music around town, or digging around the many local record and book shops. 
 					</p>
 					<h4>

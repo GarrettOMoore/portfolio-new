@@ -85,11 +85,6 @@ const Layout = ({ children }) => {
 							border: 0px solid transparent;
 							color: #D9863D;
 						}
-
-						img {
-							width: 300px;
-							height: 300px;
-						}
 					}
 			`}
 			/>

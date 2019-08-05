@@ -12,7 +12,7 @@ const index = () => {
 	query {
 		image: file(relativePath: {eq: "sitting-cb.jpg" }) {
 		sharp: childImageSharp {
-		 fluid {
+		 fluid  {
 			 ...GatsbyImageSharpFluid_withWebp
 		}
 	}
@@ -26,8 +26,8 @@ const index = () => {
 				<Image fluid={image.sharp.fluid} css={css`
 							opacity: 0.8;				
 						`} />
-				<h2>{title}</h2>
-				<h2>{description}</h2>
+				{/* <h2>{title}</h2> */}
+				{/* <h2>{description}</h2> */}
 			</Layout>
 		</>
 	)
