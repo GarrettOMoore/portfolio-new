@@ -7,7 +7,7 @@ const NavLink = styled(Link)`
 	margin: 0 auto;
 	color: #26180C;
 	font-weight: bolder;
-	font-size: 1.4rem;
+	font-size: 1rem;
 	line-height: 1.2;
 	letter-spacing: 4px;
 	margin: 0 0.5rem 0 0;
@@ -35,7 +35,14 @@ const Header = () => {
 				padding: 0.5rem calc((100wv - 550px -0.5rem) / 2);
 			`}
 		>
-			<nav css={css`margin-top: 0; margin: 0 auto;`}>
+			<nav css={css`
+				margin-top: 0; 
+				margin: 0 auto; 
+
+				* + {
+					font-size: 0.7rem;
+				}
+				`}>
 				<NavLink to='/' activeClassName='current-page'>Home</NavLink>
 				<NavLink to='/about' activeClassName='current-page'>About</NavLink>
 				<NavLink to='/projects' activeClassName='current-page'>Projects</NavLink>

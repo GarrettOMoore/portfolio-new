@@ -36,30 +36,29 @@ const Logo = styled(BackgroundImage)`
 
 const Hero = () => {
 	const { image, logo } = useStaticQuery(graphql`
-		query{
-			image: file(relativePath: {eq: "jan-antonin-kolar.jpg" }) {
-				sharp: childImageSharp {
-			     fluid {
-		         ...GatsbyImageSharpFluid_withWebp
-		      }
-				}
-		  }
-			logo: file(relativePath: {eq: "mono-logo.png" }) {
-				sharp: childImageSharp {
-			     fluid {
-		         ...GatsbyImageSharpFluid_withWebp
-		      }
-				}
-		  }
-		}
-			`)
+	query{
+		image: file(relativePath: {eq: "jan-antonin-kolar.jpg" }) {
+			sharp: childImageSharp {
+		     fluid {
+	         ...GatsbyImageSharpFluid_withWebp
+	      }
+			}
+	  }
+		logo: file(relativePath: {eq: "mono-logo.png" }) {
+			sharp: childImageSharp {
+		     fluid {
+	         ...GatsbyImageSharpFluid_withWebp
+	      }
+			}
+	  }
+	}
+		`)
 
 	return(
 		<>
 			<ImageBackground fluid={image.sharp.fluid} fadeIn="soft">
 				<Header />
-					<Logo fluid={logo.sharp.fluid} fadeIn="soft">
-					</Logo>
+				<Logo fluid={logo.sharp.fluid} fadeIn="soft"/>
 			</ImageBackground>
 		</>
 	)

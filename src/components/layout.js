@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
 					margin: 0;
 					text-align: center;
 					overflow-y: scroll;
+					overflow-x: hidden;
 					font-family: 'Open Sans Condensed', sans-serif;
 				}
 				* + * {
@@ -38,7 +39,6 @@ const Layout = ({ children }) => {
 						> div {
 							margin-top: 0;
 						}
-
 
 
 						h1,
