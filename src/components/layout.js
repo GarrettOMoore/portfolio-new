@@ -20,6 +20,7 @@ const Layout = ({ children }) => {
 					overflow-y: scroll;
 					overflow-x: hidden;
 					font-family: 'Open Sans Condensed', sans-serif;
+					scroll-behavior: smooth;
 				}
 				* + * {
 					margin-top: 1rem;
