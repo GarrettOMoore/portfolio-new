@@ -1,5 +1,4 @@
 import React from "react"
-import useSiteMetadata from '../hooks/use-sitemetadata'
 import Layout from '../components/layout';
 import Image from 'gatsby-image';
 import { useStaticQuery, graphql } from "gatsby";
@@ -7,7 +6,6 @@ import ContactIcons from '../components/contact-icons';
 import { css } from '@emotion/core';
 
 const about = () => {
-	const { title, description } = useSiteMetadata();
 
 	const { image } = useStaticQuery(graphql`
 		query {
@@ -29,18 +27,6 @@ const about = () => {
 				<Image fluid={image.sharp.fluid} css={css`
 						opacity: 0.8;				
 					`} />
-				{/* <div>
-					<h1> Skills </h1>
-					<ul>
-						<li>React</li>
-						<li>Gatsby</li>
-						<li>GraphQL</li>
-						<li>JavaScript</li>
-						<li>MongoDB</li>
-						<li>NodeJS</li>
-						<li>Express</li>
-					</ul>
-				</div> */}
 				<main>
 					<p>Hello! My name is Garrett, I'm a full stack web developer 
 						and musician based in Seattle, WA. Originally from San Diego, CA -
@@ -89,6 +75,7 @@ const about = () => {
 							<li>NodeJS</li>
 							<li>Express</li>
 							<li>TypeScript</li>
+							<li>Heroku</li>
 							<li>Python</li>
 							<li>HTML5 Canvas</li>
 						</ul>
@@ -103,6 +90,7 @@ const about = () => {
 							<li>Terminal</li>
 							<li>pSQL</li>
 							<li>Sequelize</li>
+							<li>Netlify</li>
 							<li>MapBox</li>
 							<li>Cloudinary</li>
 					</ul>

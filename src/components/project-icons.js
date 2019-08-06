@@ -22,8 +22,8 @@ const ProjectIcons = (props) => {
 					color: #D9863D;
                 }
             `}>
-                <a href={props.git}target="_blank"><FontAwesomeIcon icon={faGithubSquare} size={'4x'}  color={'#2A363B'} id={"icon"}/></a>
-                <a href={props.live}target="_blank"><FontAwesomeIcon icon={faExternalLinkSquareAlt} size={'4x'} color={'#2A363B'} id={"icon"} /></a>
+                <a href={props.git}><FontAwesomeIcon icon={faGithubSquare} size={'4x'}  color={'#2A363B'} id={"icon"}/></a>
+                <a href={props.live}><FontAwesomeIcon icon={faExternalLinkSquareAlt} size={'4x'} color={'#2A363B'} id={"icon"} /></a>
             </div>
         </div>
     )

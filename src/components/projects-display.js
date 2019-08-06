@@ -45,11 +45,11 @@ const ProjectsDisplay = () => {
         <ProjectIcons git={'https://github.com/GarrettOMoore/edamam-fun'} live={'https://mixte-app.herokuapp.com/'}/>
       </DisplayCard> 
       <DisplayCard>
-         <img src={Record}/> <br />
+         <img src={Record} alt="Record Exchange Logo"/> <br />
          <ProjectIcons git={'https://github.com/GarrettOMoore/record-exchange'} live={'https://recordexchange.herokuapp.com/'}/>
        </DisplayCard>
        <DisplayCard>
-         <img src={Crema}/> <br />
+         <img src={Crema} alt="Crema logo"/> <br />
          <ProjectIcons git={'https://github.com/GarrettOMoore/crema'} live={'https://crema-gm.herokuapp.com/'}/>
 
        </DisplayCard>

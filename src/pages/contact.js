@@ -3,7 +3,6 @@ import Layout from '../components/layout';
 import ContactIcons from '../components/contact-icons';
 import { css } from '@emotion/core';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
