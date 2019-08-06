@@ -18,14 +18,18 @@ const DisplayCard = styled('div')`
   border: 6px solid black;
   margin-top: 2rem;
 
-  h1 {
-    margin: 1rem;
-  }
-
   img {
     margin-top: 1rem;
     width: 50%;
     height: 50%;
+  }
+
+  #icon {
+    margin: 1rem;
+  }
+
+  #icon * {
+    vertical-align: bottom;
   }
 `
 
