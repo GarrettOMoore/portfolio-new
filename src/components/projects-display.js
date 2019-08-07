@@ -31,6 +31,10 @@ const DisplayCard = styled('div')`
   #icon * {
     vertical-align: bottom;
   }
+
+  p {
+    margin: 1rem;
+  }
 `
 
 const ProjectsDisplay = () => {
@@ -42,20 +46,23 @@ const ProjectsDisplay = () => {
       <DisplayCard>
         <FontAwesomeIcon icon={faUtensils} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
         <h1>Mixte</h1> <br />
+        <p>A MERN stack app utilizing the Edamam APIs. Users can create their digital pantry, and compile miscellaneous ingredients to pull recipes from the API.</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/edamam-fun'} live={'https://mixte-app.herokuapp.com/'}/>
       </DisplayCard> 
       <DisplayCard>
          <img src={Record} alt="Record Exchange Logo"/> <br />
+         <p>Utilizing the Discogs API, Record Exchange is a place for users to track their record collection, as well as foster trade and conversation about the music they love. Built in Express with a mySQL backend.</p>
          <ProjectIcons git={'https://github.com/GarrettOMoore/record-exchange'} live={'https://recordexchange.herokuapp.com/'}/>
        </DisplayCard>
        <DisplayCard>
          <img src={Crema} alt="Crema logo"/> <br />
+         <p>An app for coffee enthusiasts who want not only the best brewing methods, but a little information on coffee production and where to find the best local roasters. Made with MongoDB, Express, React, and Node.</p>
          <ProjectIcons git={'https://github.com/GarrettOMoore/crema'} live={'https://crema-gm.herokuapp.com/'}/>
-
        </DisplayCard>
        <DisplayCard>
          <FontAwesomeIcon icon={faVoteYea} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
          <h1>Citizenly</h1> <br />
+         <p>Built in the MERN stack, with data from the Meetups API, Cloudinary, & Mapbox - Citizenly is an app for those trying become more involved in US politics.</p>
          <ProjectIcons git={'https://github.com/GarrettOMoore/ga-wdi23-project-3'} live={'https://citizenlyapp.herokuapp.com/'}/>
        </DisplayCard>
     </>

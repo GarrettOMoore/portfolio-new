@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from '../components/layout';
 import Image from 'gatsby-image';
 import { css } from '@emotion/core';
+import Instagram from '../components/instagram';
 
 
 const index = () => {
@@ -24,6 +25,8 @@ const index = () => {
 				<Image fluid={image.sharp.fluid} css={css`
 							opacity: 0.8;				
 						`} />
+						<hr />
+						<Instagram />
 			</Layout>
 		</>
 	)

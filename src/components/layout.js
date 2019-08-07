@@ -69,6 +69,12 @@ const Layout = ({ children }) => {
 							width: 100%;
 						}
 
+						hr {
+							border: 2px solid black;
+  						border-radius: 5px;
+							margin-top: 4rem;
+						}
+
 						#gatsby-focus-wrapper {
 							height: 100vh;
 							background-image: linear-gradient(to bottom, #99B898 2rem, rgba(153,184,152, 0.3));
