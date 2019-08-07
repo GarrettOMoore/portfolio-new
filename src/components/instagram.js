@@ -10,7 +10,6 @@ library.add(faInstagram);
 
 const Insta = () => {
 	const instaPhotos = useInstagram();
-	const { username } = instaPhotos[0];
 
 	return(
 		<>
