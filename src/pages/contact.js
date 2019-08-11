@@ -1,21 +1,27 @@
 import React from "react"
 import Layout from '../components/layout';
 import ContactIcons from '../components/contact-icons';
-import { css } from '@emotion/core';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import PostPreview from '../components/post-preview';
+import usePosts from '../hooks/use-posts';
 
 
 library.add(faGithubSquare, faLinkedin, faEnvelope)
 
 const contact = () => {
-
+	const posts = usePosts();
+	
 	return (
 		<>
 			<Layout>
 				<ContactIcons />
-				<div className="container" css={css`
+				{posts.map(post => (
+					<PostPreview key={post.slug} post={post} />
+				))}
+
+				{/* <div className="container" css={css`
 														@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 														* {
 														  margin: 0;
@@ -161,7 +167,7 @@ const contact = () => {
 						<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
   				</form>
 				</div>
-				</div>
+				</div> */}
 			</Layout>
 		</>
 	)

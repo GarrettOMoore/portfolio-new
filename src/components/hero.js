@@ -40,14 +40,14 @@ const Hero = () => {
 		image: file(relativePath: {eq: "jan-antonin-kolar.jpg" }) {
 			sharp: childImageSharp {
 		     fluid {
-					...GatsbyImageSharpFluid_withWebp_tracedSVG
+	         ...GatsbyImageSharpFluid
 	      }
 			}
 	  }
 		logo: file(relativePath: {eq: "mono-logo.png" }) {
 			sharp: childImageSharp {
 		     fluid {
-					...GatsbyImageSharpFluid_withWebp_tracedSVG
+					...GatsbyImageSharpFluid_tracedSVG
 	      }
 			}
 	  }

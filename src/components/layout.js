@@ -36,11 +36,13 @@ const Layout = ({ children }) => {
 						font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Robot, Helvetica, Arial, sans-serif;
 						font-size: 18px;
 						line-height: 1.4;
-
 						> div {
 							margin-top: 0;
 						}
-
+						* a  {
+							decoration: none;
+							color: black;
+						}
 
 						h1,
 						h2,
@@ -114,6 +116,7 @@ const Layout = ({ children }) => {
 						max-width: 90vw;
 						width: 650px;
 						overflow-y: scroll;
+
 					`}
 					>
 						{children}
