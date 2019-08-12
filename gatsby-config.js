@@ -12,6 +12,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
+        gatsbyRemarkPlugins: [`gatsby-remark-images`],
         defaultLayouts: {
           default: require.resolve('./src/components/layout.js'),
         },
@@ -24,6 +25,12 @@ module.exports = {
         name: 'images',
         path: 'images',
       },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [ `gatsby-remark-images` ],
+      }
     },
     {
 			resolve: 'gatsby-source-filesystem',
