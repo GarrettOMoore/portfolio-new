@@ -52,7 +52,6 @@ const Layout = ({ children }) => {
 						h6 {
 							color: #222;
 							letter-spacing: 0.5rem;
-							line-height: 1.1;
 
 							+ * {
 								margin-top: 0.5rem;

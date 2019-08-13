@@ -22,13 +22,14 @@ const PostTemplate = ({ data: {mdx: post} }) => (
 		<h1>{post.frontmatter.title}</h1>
 		<p
 		css={css`
-			font-size: 1rem;
+			font-size: 1.2rem;
+			letter-spacing: 0.2rem;
 		`}
 		>
-			Posted by {post.frontmatter.author}
+			Posted by {post.frontmatter.author} <br />
+			8/12/2019
 		</p>
 		<MDXRenderer>{post.body}</MDXRenderer>
-
 		<ReadLink to='/contact'>&larr; Back to all posts</ReadLink>
 	</Layout>
 )
