@@ -6,11 +6,11 @@ import Crema from '../../images/project-images/recordex.jpeg'
 import Record from '../../images/project-images/record-exchange-logo.png'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faVoteYea, faUtensils, faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faVoteYea, faUtensils, faExternalLinkSquareAlt, faChartLine } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare} from '@fortawesome/free-brands-svg-icons'
 // import ProjectCards from '../components/project-cards'
 
-library.add(faVoteYea, faUtensils, faGithubSquare, faExternalLinkSquareAlt)
+library.add(faVoteYea, faUtensils, faGithubSquare, faExternalLinkSquareAlt, faChartLine)
 
 const DisplayCard = styled('div')`
   width: 100%;
@@ -43,6 +43,12 @@ const ProjectsDisplay = () => {
 
   return(
     <>
+      <DisplayCard>
+        <FontAwesomeIcon icon={faChartLine} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
+        <h1>Job Tracker</h1> <br />
+        <p>A simple Job Tracker app I built using React & Firebase's Auth API/Realtime Database.</p>
+        <ProjectIcons git={'https://github.com/GarrettOMoore/study-job-tracker'} live={'https://firebase-jobtracker.netlify.com/'}/>
+      </DisplayCard> 
       <DisplayCard>
         <FontAwesomeIcon icon={faUtensils} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
         <h1>Mixte</h1> <br />

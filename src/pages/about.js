@@ -71,6 +71,7 @@ const about = () => {
 							<li>Gatsby</li>
 							<li>GraphQL</li>
 							<li>JavaScript</li>
+							<li>Firebase</li>
 							<li>MongoDB</li>
 							<li>NodeJS</li>
 							<li>Express</li>
@@ -93,6 +94,7 @@ const about = () => {
 							<li>Netlify</li>
 							<li>MapBox</li>
 							<li>Cloudinary</li>
+							<li>Github</li>
 					</ul>
 				</div>
 				</div>
