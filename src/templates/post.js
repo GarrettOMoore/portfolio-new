@@ -30,7 +30,7 @@ const PostTemplate = ({ data: {mdx: post} }) => (
 			8/12/2019
 		</p>
 		<MDXRenderer>{post.body}</MDXRenderer>
-		<ReadLink to='/contact'>&larr; Back to all posts</ReadLink>
+		<ReadLink to='/blog'>&larr; Back to all posts</ReadLink>
 	</Layout>
 )
 

@@ -10,7 +10,7 @@ import usePosts from '../hooks/use-posts';
 
 library.add(faGithubSquare, faLinkedin, faEnvelope)
 
-const contact = () => {
+const blog = () => {
 	const posts = usePosts();
 
 	return (
@@ -25,4 +25,4 @@ const contact = () => {
 	)
 }
 
-export default contact;
+export default blog;
