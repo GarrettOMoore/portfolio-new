@@ -1,13 +1,16 @@
 import React from "react"
 import Layout from '../components/layout';
 import ProjectsDisplay from '../components/projects-display'
+import ContactIcons from '../components/contact-icons';
+
 
 const projects = () => {
 
 	return (
 		<>
 			<Layout>
-				<h2>Projects</h2>
+			<ContactIcons />
+				<h1>Projects</h1>
 				<ProjectsDisplay />
 			</Layout>
 		</>

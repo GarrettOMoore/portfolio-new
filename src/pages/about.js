@@ -4,6 +4,8 @@ import Image from 'gatsby-image';
 import { useStaticQuery, graphql } from "gatsby";
 import ContactIcons from '../components/contact-icons';
 import { css } from '@emotion/core';
+import Instagram from '../components/instagram';
+
 
 const about = () => {
 
@@ -23,7 +25,7 @@ const about = () => {
 		<>
 			<Layout>
 			<ContactIcons />
-				<h2>About Me</h2>
+				<h1>About Me</h1>
 				<Image fluid={image.sharp.fluid} css={css`
 						opacity: 0.8;				
 					`} />
@@ -32,11 +34,9 @@ const about = () => {
 						and musician based in Seattle, WA. Originally from San Diego, CA -
 					 	I moved to Seattle for a change of scenery in 2008, and have 
 					 	called it home ever since. Originally coming from a musical background, 
-					 	I made the decision to pivot to a career in Software Development in 2017, 
-					 	after a few years of self-learning fundmentals. I recently graduated from
-						General Assembly's Software Engineering Immersive, where I'm now working as a 
-						Teaching Assistant. When I'm not busy building things for the web, you can usually find
-						me playing music around town, or digging around the many local record and book shops. 
+					 	I made the decision to pivot to a career in Software Development in 2017. 
+						When I'm not busy building things for the web, you can usually find
+						me playing music, or digging around the local record and book shops. 
 					</p>
 					<h4>
 					Currently seeking full-time work in Seattle, or remote.
@@ -99,7 +99,7 @@ const about = () => {
 				</div>
 				</div>
 				<p>...always adding new things!</p>
-				{/* <Icons /> */}
+				<Instagram />
 			</Layout>
 		</>
 	)

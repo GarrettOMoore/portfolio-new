@@ -44,26 +44,26 @@ const ProjectsDisplay = () => {
   return(
     <>
       <DisplayCard>
-        <FontAwesomeIcon icon={faChartLine} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
-        <h1>Job Tracker</h1> <br />
-        <p>A simple Job Tracker app I built using React & Firebase's Auth API/Realtime Database.</p>
-        <ProjectIcons git={'https://github.com/GarrettOMoore/study-job-tracker'} live={'https://firebase-jobtracker.netlify.com/'}/>
-      </DisplayCard> 
-      <DisplayCard>
         <FontAwesomeIcon icon={faUtensils} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
         <h1>Mixte</h1> <br />
         <p>A MERN stack app utilizing the Edamam APIs. Users can create their digital pantry, and compile miscellaneous ingredients to pull recipes from the API.</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/edamam-fun'} live={'https://mixte-app.herokuapp.com/'}/>
       </DisplayCard> 
       <DisplayCard>
-         <img src={Record} alt="Record Exchange Logo"/> <br />
-         <p>Utilizing the Discogs API, Record Exchange is a place for users to track their record collection, as well as foster trade and conversation about the music they love. Built in Express with a mySQL backend.</p>
-         <ProjectIcons git={'https://github.com/GarrettOMoore/record-exchange'} live={'https://recordexchange.herokuapp.com/'}/>
-       </DisplayCard>
+        <FontAwesomeIcon icon={faChartLine} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
+        <h1>Job Tracker</h1> <br />
+        <p>A simple Job Tracker app I built using React & Firebase's Auth API/Realtime Database.</p>
+        <ProjectIcons git={'https://github.com/GarrettOMoore/study-job-tracker'} live={'https://firebase-jobtracker.netlify.com/'}/>
+      </DisplayCard> 
        <DisplayCard>
          <img src={Crema} alt="Crema logo"/> <br />
          <p>An app for coffee enthusiasts who want not only the best brewing methods, but a little information on coffee production and where to find the best local roasters. Made with MongoDB, Express, React, and Node.</p>
          <ProjectIcons git={'https://github.com/GarrettOMoore/crema'} live={'https://crema-gm.herokuapp.com/'}/>
+       </DisplayCard>
+      <DisplayCard>
+         <img src={Record} alt="Record Exchange Logo"/> <br />
+         <p>Utilizing the Discogs API, Record Exchange is a place for users to track their record collection, as well as foster trade and conversation about the music they love. Built in Express with a mySQL backend.</p>
+         <ProjectIcons git={'https://github.com/GarrettOMoore/record-exchange'} live={'https://recordexchange.herokuapp.com/'}/>
        </DisplayCard>
        <DisplayCard>
          <FontAwesomeIcon icon={faVoteYea} size={'10x'}  color={'#2A363B'} css={css`padding: 2rem; margin: 2rem;`}/>
