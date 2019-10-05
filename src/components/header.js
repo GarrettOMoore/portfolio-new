@@ -40,7 +40,7 @@ const Header = () => {
 				margin: 0 auto; 
 
 				* + {
-					font-size: 0.7rem;
+					font-size: 1.5rem;
 				}
 				`}>
 				{/* <NavLink to='/' activeClassName='current-page'>Home</NavLink> */}
