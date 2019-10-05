@@ -28,6 +28,8 @@ const Layout = ({ children }) => {
 					html,
 					body {
 						background-repeat: no-repeat;
+						overflow-y: scroll;
+						-webkit-overflow-scrolling: touch;
 						height: 100%;
 						width: 100vw;
 						overflow: visible;
