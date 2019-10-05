@@ -43,8 +43,8 @@ const Header = () => {
 					font-size: 0.7rem;
 				}
 				`}>
-				<NavLink to='/' activeClassName='current-page'>Home</NavLink>
-				<NavLink to='/about' activeClassName='current-page'>About</NavLink>
+				{/* <NavLink to='/' activeClassName='current-page'>Home</NavLink> */}
+				<NavLink to='/' activeClassName='current-page'>About</NavLink>
 				<NavLink to='/projects' activeClassName='current-page'>Projects</NavLink>
       	{/* <NavLink to='/blog' activeClassName='current-page'>Blog</NavLink> */}
 			</nav>
