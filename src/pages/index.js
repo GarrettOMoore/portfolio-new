@@ -33,10 +33,8 @@ const index = () => {
 					<p>Hello! My name is Garrett, I'm a full stack web developer 
 						and musician based in Seattle, WA. Originally from San Diego, CA -
 					 	I moved to Seattle for a change of scenery in 2008, and have 
-					 	called it home ever since. Originally coming from a musical background, 
-					 	I made the decision to pivot to a career in Software Development in 2017. 
-						When I'm not busy building things for the web, you can usually find
-						me playing music, or digging around the local record and book shops. 
+					 	called it home ever since. When I'm not busy building things for the web, you can usually find
+						me playing music, or digging around local record and book shops. 
 					</p>
 					<h4>
 					Currently seeking full-time work in Seattle, or remote.

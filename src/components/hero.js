@@ -56,7 +56,7 @@ const Hero = () => {
 
 	return(
 		<>
-			<ImageBackground fluid={image.sharp.fluid} fadeIn="soft">
+			<ImageBackground fluid={image.sharp.fluid} loading="eager">
 				<Header />
 				<Logo fluid={logo.sharp.fluid} fadeIn="soft"/>
 			</ImageBackground>
